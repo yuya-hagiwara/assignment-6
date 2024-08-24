@@ -15,11 +15,9 @@ public class HelloController {
     }
 
     @GetMapping("/human")
-<<<<<<< HEAD
+
     public List<Human> getHuman() {
-=======
-    public List<Human> GetHuman() {
->>>>>>> origin/feature/hello-world
+
         List<Human> human = new ArrayList<>();
         human.add(new Human("yuya", 32));
         human.add(new Human("taka", 33));
